@@ -1,6 +1,6 @@
 import "./index.css"
 export default function Player() {
-    const iframeSrc = "https://reidoscanais.com/embed/?id=bbb-2";
+    const iframeSrc = "https://reidoscanais.com/embed/?id=bbb";
 
    async function Mudar(botao) {
     
