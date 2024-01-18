@@ -1,0 +1,5 @@
+.notfound {
+background-color: rgb(255, 255, 255) !important;
+display: flex;
+justify-content: center;
+}
