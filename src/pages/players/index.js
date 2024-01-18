@@ -177,7 +177,7 @@ export default function Player(props) {
         
     }
 
-   async function Mudar(botao) {
+    function Mudar(botao) {
 
 
     let d =  canal;
@@ -385,9 +385,9 @@ export default function Player(props) {
         <div className="containerPlayer1">
             <Header />
         <div className="containerPlayer">
-
-            <iframe  title="UniqueTitle" name="Player"   id="meuIframe" src={iframeSrc} frameborder="0" height="600" scrolling="no" width="80%" allow="encrypted-media" allowfullscreen autoplay />              
+            <iframe  title="UniqueTitle" name="Player"   id="meuIframe" src={iframeSrc} frameborder="0" height="550" scrolling="no" width="80%" allow="encrypted-media" allowFullScreen />              
             <div class="container text-center" id="con">
+
                 <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
                     <div class="col1">
                     <div class="p-3" id="bloc1" onClick={() => {Mudar('CAM1'); MudarCor('CAM1')}}>{cam1}</div>
