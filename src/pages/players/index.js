@@ -188,7 +188,7 @@ export default function Player(props) {
         if(d === 'Canais Prime') {
             
             if(botao === 'CAM1') {    
-            meuIframe.src = "https://embedflix.online/tv/prime-tv";
+            meuIframe.src = "https://sinalpublico.com/player3/ch.php?canal=telecineaction";
             
         }
             else if (botao === 'CAM2') {
@@ -218,6 +218,9 @@ export default function Player(props) {
                 }
                 else if (botao === 'CAM5') {
                     meuIframe.src = "https://reidoscanais.com/embed/?id=globodf-globobrasilia";
+                }
+                else if (botao === 'CAM6') {
+                    meuIframe.src = "https://embedflix.online/tv/sbt";
                 }
         }
         else if(d === "Canais Premiere") {
@@ -389,7 +392,8 @@ export default function Player(props) {
             setCam3('Globo Minas Gerais')
             setCam4('Globo Bahia')
             setCam5('Globo Brasília ')
-     
+            setCam6('SBT ')
+
        }
        else if(f === 'Canais Premiere'){
         setCam1('Premiere Clubes')
