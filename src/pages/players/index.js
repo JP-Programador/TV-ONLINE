@@ -5,7 +5,7 @@ import Header from "../../components/header";
 import Footer from "../../components/footer";
 
 export default function Player(props) {
-    const iframeSrc = "https://www.veed.io/embed/35c4d6a5-dd9f-4a10-8d5d-b866ca23bff2"
+    const iframeSrc = "https://www.veed.io/view/35c4d6a5-dd9f-4a10-8d5d-b866ca23bff2"
 
     const {canal} = useParams();
     const [cam1, setCam1] = useState('')
@@ -185,54 +185,33 @@ export default function Player(props) {
     
     
 
-        if(d === 'Canais BBB24') {
+        if(d === 'Canais Prime') {
             
             if(botao === 'CAM1') {    
-            meuIframe.src = "https://reidoscanais.com/embed/?id=bbb";
+            meuIframe.src = "https://playertv.net/e/?v=primeA";
             
         }
             else if (botao === 'CAM2') {
-                meuIframe.src = "https://reidoscanais.com/embed/?id=bbb2";
+                meuIframe.src = "https://playertv.net/e/?v=primeAlt";
             }
             else if (botao === 'CAM3') {
-                meuIframe.src = "https://reidoscanais.com/embed/?id=bbb8";
+                meuIframe.src = "https://playertv.net/e/?v=primeAlt2";
             }
             else if (botao === 'CAM4') {
-                meuIframe.src = "https://reidoscanais.com/embed/?id=bbb5";
-            }
-            else if (botao === 'CAM5') {
-                meuIframe.src = "https://reidoscanais.com/embed/?id=bbb4";
-            }
-            else if (botao === 'CAM6') {
-                meuIframe.src = "https://reidoscanais.com/embed/?id=bbb6";
-            }
-            else if (botao === 'CAM7') {
-                meuIframe.src = "https://reidoscanais.com/embed/?id=bbb7";
-            }
-            else if (botao === 'CAM8') {
-                meuIframe.src = "https://reidoscanais.com/embed/?id=bbb9";
-            }
-            else if (botao === 'CAM9') {
-                meuIframe.src = "https://reidoscanais.com/embed/?id=bbb10";
-            }
-            else if (botao === 'CAM10') {
-                meuIframe.src = "https://reidoscanais.com/embed/?id=bbb11";
-            }
-            else if (botao === 'CAM11') {
-                meuIframe.src = "https://reidoscanais.com/embed/?id=bbbmosaico";
+                meuIframe.src = "https://playertv.net/e/?v=primeAlt3";
             }
             
-
         }
         else if(d === "Canais Globo") {
             if(botao === 'CAM1') {    
-                meuIframe.src = "https://reidoscanais.com/embed/?id=globosp-globosaopaulo";
+                meuIframe.src = "https://embedflix.online/tv/globo-sp";
+
                 }
                 else if (botao === 'CAM2') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=globorj-globorio";
+                    meuIframe.src = "https://embedflix.online/tv/globo-rio";
                 }
                 else if (botao === 'CAM3') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=globomg-globominas";
+                    meuIframe.src = "https://embedflix.online/tv/globo-minas";
                 }
                 else if (botao === 'CAM4') {
                     meuIframe.src = "https://reidoscanais.com/embed/?id=globoba-tvbahia";
@@ -243,77 +222,124 @@ export default function Player(props) {
         }
         else if(d === "Canais Premiere") {
             if(botao === 'CAM1') {    
-                meuIframe.src = "https://reidoscanais.com/embed/?id=premiereclubes";
+                meuIframe.src = "https://playertv.net/e/?v=premiere";
                 }
                 else if (botao === 'CAM2') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=premiere2";
+                    meuIframe.src = "https://playertv.net/e/?v=premiere2";
                 }
                 else if (botao === 'CAM3') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=premiere3";
+                    meuIframe.src = "https://playertv.net/e/?v=premiere3";
                 }
                 else if (botao === 'CAM4') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=premiere4";
+                    meuIframe.src = "https://playertv.net/e/?v=premiere4";
                 }
                 else if (botao === 'CAM5') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=premiere5";
+                    meuIframe.src = "https://playertv.net/e/?v=premiere5";
                 }
                 else if (botao === 'CAM6') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=premiere6";
+                    meuIframe.src = "https://playertv.net/e/?v=premiere6";
                 }
                 else if (botao === 'CAM7') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=premiere7";
+                    meuIframe.src = "https://playertv.net/e/?v=premiere7";
                 }
                 else if (botao === 'CAM8') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=premiere8";
+                    meuIframe.src = "https://playertv.net/e/?v=premiere8";
                 }
         }
         else if(d === "Canais ESPN") {
             if(botao === 'CAM1') {    
-                meuIframe.src = "https://reidoscanais.com/embed/?id=espn";
+                meuIframe.src = "https://playertv.net/e/?v=espnAlt";
                 }
                 else if (botao === 'CAM2') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=espn2";
+                    meuIframe.src = "https://playertv.net/e/?v=espn2";
                 }
                 else if (botao === 'CAM3') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=espn3";
+                    meuIframe.src = "https://playertv.net/e/?v=espn3";
                 }
                 else if (botao === 'CAM4') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=espn4";
+                    meuIframe.src = "https://playertv.net/e/?v=espn4";
                 }
                 else if (botao === 'CAM5') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=espnextra";
+                    meuIframe.src = "https://playertv.net/e/?v=espn5";
                 }
         }
         else if(d === "Canais Sport TV") {
             if(botao === 'CAM1') {    
-                meuIframe.src = "https://reidoscanais.com/embed/?id=sportv";
+                meuIframe.src = "https://playertv.net/e/?v=spt1";
                 }
                 else if (botao === 'CAM2') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=sportv2";
+                    meuIframe.src = "https://playertv.net/e/?v=spt2";
                 }
                 else if (botao === 'CAM3') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=sportv3";
+                    meuIframe.src = "https://playertv.net/e/?v=spt3";
+                }
+                
+                else if (botao === 'CAM4') {
+                    meuIframe.src = "https://playertv.net/e/?v=spt4";
+                }
+                
+                else if (botao === 'CAM5') {
+                    meuIframe.src = "https://playertv.net/e/?v=spt5";
                 }
         }
         
         else if(d === "Canais Telecine") {
             if(botao === 'CAM1') {    
-                meuIframe.src = "https://reidoscanais.com/embed/?id=telecinepremium";
+                meuIframe.src = "https://playertv.net/e/?v=tnt";
                 }
                 else if (botao === 'CAM2') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=telecinepipoca";
+                    meuIframe.src = "https://embedflix.online/tv/telecine-pipoca-hd";
                 }
                 else if (botao === 'CAM3') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=telecineaction";
+                    meuIframe.src = "https://embedflix.online/tv/telecine-action-hd";
                 }
                 else if (botao === 'CAM4') {
                     meuIframe.src = "https://reidoscanais.com/embed/?id=telecinetouch";
                 }
                 else if (botao === 'CAM5') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=telecinefun";
+                    meuIframe.src = "https://embedflix.online/tv/telecine-fun-hd";
                 }
                 else if (botao === 'CAM6') {
                     meuIframe.src = "https://reidoscanais.com/embed/?id=telecinecult";
+                }
+        }
+
+        else if(d === "Canais HBO MAX") {
+            if(botao === 'CAM1') {    
+                meuIframe.src = "https://playertv.net/e/?v=max";
+                }
+                else if (botao === 'CAM2') {
+                    meuIframe.src = "https://embedflix.online/tv/hbo-max-2";
+                }
+                else if (botao === 'CAM3') {
+                    meuIframe.src = "https://embedflix.online/tv/hbo-max-3";
+                }
+                else if (botao === 'CAM4') {
+                    meuIframe.src = "https://embedflix.online/tv/hbo-max-4";
+                }
+                else if (botao === 'CAM5') {
+                    meuIframe.src = "https://embedflix.online/tv/hbo-max-5";
+                }
+                else if (botao === 'CAM6') {
+                    meuIframe.src = "https://embedflix.online/tv/hbo-xtreme";
+                }
+                
+                else if (botao === 'CAM7') {
+                    meuIframe.src = "https://embedflix.online/tv/hbo-family";
+                }
+                else if (botao === 'CAM8') {
+                    meuIframe.src = "https://embedflix.online/tv/hbo-mundi";
+                }
+                
+                else if (botao === 'CAM9') {
+                    meuIframe.src = "https://embedflix.online/tv/hbo-plus";
+                }
+                else if (botao === 'CAM10') {
+                    meuIframe.src = "https://embedflix.online/tv/hbo-2";
+                }
+                
+                else if (botao === 'CAM11') {
+                    meuIframe.src = "https://embedflix.online/tv/hbo-pop";
                 }
         }
         console.log(d)
@@ -322,18 +348,12 @@ export default function Player(props) {
 
     useEffect(() =>{
        let f = canal;
-        if(f === 'Canais BBB24'){
-            setCam1('Acompanhe a Casa')
-            setCam2('Acompanhe a Casa 2')
-            setCam3('Cozinha')
-            setCam4('Quarto Fada')
-            setCam5('Quarto Magia')
-            setCam6('Quarto Gnomo')
-            setCam7('Sala')
-            setCam8('Chuveiro Pantene')
-            setCam9('Jardim')
-            setCam10('Piscina')
-            setCam11('BBB Mosaico')
+        if(f === 'Canais Prime'){
+            setCam1('Prime Video')
+            setCam2('Prime Video 2')
+            setCam3('Prime Video 3')
+            setCam4('Prime Video 4')
+    
        }
        else if(f === 'Canais Globo'){
             setCam1('Globo São Paulo')
@@ -376,6 +396,22 @@ export default function Player(props) {
             setCam5('Telecine Fun')
             setCam6('Telecine Cult')      
         }
+        else if(f === 'Canais HBO MAX'){
+            setCam1('HBO MAX')
+            setCam2('HBO MAX 2')
+            setCam3('HBO MAX 3')
+            setCam4('HBO MAX 4')
+            setCam5('HBO MAX 5')
+            setCam6('HBO XTREME')
+            setCam7('HBO FAMILY')   
+            setCam8('HBO MUNDI')
+            setCam9('HBO PLUS')
+            setCam10('HBO 2')
+            setCam11('HBO POP')
+
+
+        }
+
 
 
      
