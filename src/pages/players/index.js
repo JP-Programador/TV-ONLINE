@@ -222,6 +222,10 @@ export default function Player(props) {
                 else if (botao === 'CAM6') {
                     meuIframe.src = "https://embedflix.online/tv/sbt";
                 }
+
+                else if (botao === 'CAM6') {
+                    meuIframe.src = "https://embedflix.online/tv/sbt";
+                }
         }
         else if(d === "Canais Premiere") {
             if(botao === 'CAM1') {    
@@ -255,16 +259,16 @@ export default function Player(props) {
         }
         else if(d === "Canais ESPN") {
             if(botao === 'CAM1') {    
-                meuIframe.src = "https://playertv.net/e/?v=espnAlt";
+                meuIframe.src = "https://reidoscanais.app/embed/?id=espn";
                 }
                 else if (botao === 'CAM2') {
-                    meuIframe.src = "https://playertv.net/e/?v=espn2";
+                    meuIframe.src = "https://reidoscanais.app/embed/?id=espn2";
                 }
                 else if (botao === 'CAM3') {
-                    meuIframe.src = "https://playertv.net/e/?v=espn3";
+                    meuIframe.src = "https://reidoscanais.app/embed/?id=espn3";
                 }
                 else if (botao === 'CAM4') {
-                    meuIframe.src = "https://playertv.net/e/?v=espn4";
+                    meuIframe.src = "https://reidoscanais.app/embed/?id=espn4";
                 }
                 else if (botao === 'CAM5') {
                     meuIframe.src = "https://playertv.net/e/?v=espn5";
@@ -282,20 +286,26 @@ export default function Player(props) {
                 }
                 
                 else if (botao === 'CAM4') {
-                    meuIframe.src = "https://playertv.net/e/?v=spt4";
+                    meuIframe.src = "https://reidoscanais.app/embed/?id=espn4";
                 }
                 
                 else if (botao === 'CAM5') {
-                    meuIframe.src = "https://playertv.net/e/?v=spt5";
+                    meuIframe.src = "https://reidoscanais.app/embed/?id=espn5";
                 }
+
+                else if (botao === 'CAM6') {
+                    meuIframe.src = "https://reidoscanais.app/embed/?id=espn6";
+                }
+             
         }
+
         
         else if(d === "Canais Telecine") {
             if(botao === 'CAM1') {    
-                meuIframe.src = "https://playertv.net/e/?v=tnt";
+                meuIframe.src = "https://reidoscanais.app/embed/?id=telecinepremium";
                 }
                 else if (botao === 'CAM2') {
-                    meuIframe.src = "https://embedflix.online/tv/telecine-pipoca-hd";
+                    meuIframe.src = "https://reidoscanais.app/embed/?id=telecinepipoca";
                 }
                 else if (botao === 'CAM3') {
                     meuIframe.src = "https://embedflix.online/tv/telecine-action-hd";
@@ -366,11 +376,11 @@ export default function Player(props) {
                     meuIframe.src = "https://embedflix.online/tv/star-life-hd";
                 }
                 else if (botao === 'CAM6') {
-                    meuIframe.src = "https://embedflix.online/tv/star-channel-hd";
+                    meuIframe.src = "https://reidoscanais.app/embed/?id=starchannel";
                 }else if (botao === 'CAM7') {
-                    meuIframe.src = "https://embedflix.online/tv/disney-channel";
+                    meuIframe.src = "https://reidoscanais.app/embed/?id=disneychannel";
                 } else if (botao === 'CAM8') {
-                    meuIframe.src = "https://embedflix.online/tv/warner-channel";
+                    meuIframe.src = "https://reidoscanais.app/embed/?id=warnertv";
                 }  
         }
         console.log(d)
