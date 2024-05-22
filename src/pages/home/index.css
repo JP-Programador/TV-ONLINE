@@ -36,7 +36,7 @@
 .col:hover {
     background-color: rgb(23, 22, 22);
     border-radius: 70px;
-    padding: 40px;
+    padding: 20px;
    
 }
 .col-name:hover {
@@ -55,4 +55,6 @@
     span {
         font-size: 2px;
     }
+
+   
 }

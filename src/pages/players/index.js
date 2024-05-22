@@ -188,7 +188,7 @@ export default function Player(props) {
         if(d === 'Canais Prime') {
             
             if(botao === 'CAM1') {    
-            meuIframe.src = "https://playertv.net/e/?v=primeA";
+            meuIframe.src = "https://embedflix.online/tv/prime-tv";
             
         }
             else if (botao === 'CAM2') {
@@ -222,29 +222,33 @@ export default function Player(props) {
         }
         else if(d === "Canais Premiere") {
             if(botao === 'CAM1') {    
-                meuIframe.src = "https://playertv.net/e/?v=premiere";
+                meuIframe.src = "https://embedflix.online/tv/pfc-clubes-fhd";
                 }
                 else if (botao === 'CAM2') {
-                    meuIframe.src = "https://playertv.net/e/?v=premiere2";
+                    meuIframe.src = "https://embedflix.online/tv/prfc-1-hd";
                 }
                 else if (botao === 'CAM3') {
-                    meuIframe.src = "https://playertv.net/e/?v=premiere3";
+                    meuIframe.src = "https://embedflix.online/tv/prfc-2-hd";
                 }
                 else if (botao === 'CAM4') {
-                    meuIframe.src = "https://playertv.net/e/?v=premiere4";
+                    meuIframe.src = "https://embedflix.online/tv/prfc-3-hd";
                 }
                 else if (botao === 'CAM5') {
-                    meuIframe.src = "https://playertv.net/e/?v=premiere5";
+                    meuIframe.src = "https://embedflix.online/tv/prfc-4-hd";
                 }
                 else if (botao === 'CAM6') {
-                    meuIframe.src = "https://playertv.net/e/?v=premiere6";
+                    meuIframe.src = "https://embedflix.online/tv/prfc-5-hd";
                 }
                 else if (botao === 'CAM7') {
-                    meuIframe.src = "https://playertv.net/e/?v=premiere7";
+                    meuIframe.src = "https://embedflix.online/tv/prfc-6-hd";
                 }
                 else if (botao === 'CAM8') {
-                    meuIframe.src = "https://playertv.net/e/?v=premiere8";
+                    meuIframe.src = "https://embedflix.online/tv/prfc-7-hd";
                 }
+                else if (botao === 'CAM9') {
+                    meuIframe.src = "https://embedflix.online/tv/prfc-8-hd";
+                }
+                
         }
         else if(d === "Canais ESPN") {
             if(botao === 'CAM1') {    
@@ -265,13 +269,13 @@ export default function Player(props) {
         }
         else if(d === "Canais Sport TV") {
             if(botao === 'CAM1') {    
-                meuIframe.src = "https://playertv.net/e/?v=spt1";
+                meuIframe.src = "https://embedflix.online/tv/sportv-hd";
                 }
                 else if (botao === 'CAM2') {
-                    meuIframe.src = "https://playertv.net/e/?v=spt2";
+                    meuIframe.src = "https://embedflix.online/tv/sportv-2-hd";
                 }
                 else if (botao === 'CAM3') {
-                    meuIframe.src = "https://playertv.net/e/?v=spt3";
+                    meuIframe.src = "https://embedflix.online/tv/sportv-3-hd";
                 }
                 
                 else if (botao === 'CAM4') {
@@ -294,13 +298,13 @@ export default function Player(props) {
                     meuIframe.src = "https://embedflix.online/tv/telecine-action-hd";
                 }
                 else if (botao === 'CAM4') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=telecinetouch";
+                    meuIframe.src = "https://embedflix.online/tv/telecine-touch";
                 }
                 else if (botao === 'CAM5') {
                     meuIframe.src = "https://embedflix.online/tv/telecine-fun-hd";
                 }
                 else if (botao === 'CAM6') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=telecinecult";
+                    meuIframe.src = "https://embedflix.online/tv/telecine-cult";
                 }
         }
 
@@ -342,6 +346,30 @@ export default function Player(props) {
                     meuIframe.src = "https://embedflix.online/tv/hbo-pop";
                 }
         }
+        else if(d === "Star") {
+            if(botao === 'CAM1') {    
+                meuIframe.src = "https://embedflix.online/tv/star-1-hd";
+                }
+                else if (botao === 'CAM2') {
+                    meuIframe.src = "https://embedflix.online/tv/star-2-hd";
+                }
+                else if (botao === 'CAM3') {
+                    meuIframe.src = "https://embedflix.online/tv/star-3-hd";
+                }
+                else if (botao === 'CAM4') {
+                    meuIframe.src = "https://embedflix.online/tv/star-4-hd";
+                }
+                else if (botao === 'CAM5') {
+                    meuIframe.src = "https://embedflix.online/tv/star-life-hd";
+                }
+                else if (botao === 'CAM6') {
+                    meuIframe.src = "https://embedflix.online/tv/star-channel-hd";
+                }else if (botao === 'CAM7') {
+                    meuIframe.src = "https://embedflix.online/tv/disney-channel";
+                } else if (botao === 'CAM8') {
+                    meuIframe.src = "https://embedflix.online/tv/warner-channel";
+                }  
+        }
         console.log(d)
       
     }  
@@ -365,13 +393,14 @@ export default function Player(props) {
        }
        else if(f === 'Canais Premiere'){
         setCam1('Premiere Clubes')
-        setCam2('Premiere 2')
-        setCam3('Premiere 3')
-        setCam4('Premiere 4')
-        setCam5('Premiere 5')
-        setCam6('Premiere 6')
-        setCam7('Premiere 7')
-        setCam8('Premiere 8')
+        setCam2('Premiere 1')
+        setCam3('Premiere 2')
+        setCam4('Premiere 3')
+        setCam5('Premiere 4')
+        setCam6('Premiere 5')
+        setCam7('Premiere 6')
+        setCam8('Premiere 7')
+        setCam9('Premiere 8')
    }
     else if(f === 'Canais ESPN'){
         setCam1('Canal ESPN1')
@@ -386,6 +415,8 @@ export default function Player(props) {
         setCam1('Canal Sport TV')
         setCam2('Canal Sport TV2')
         setCam3('Canal Sport TV3')
+        setCam4('Canal Sport TV4')
+        setCam5('Canal Sport TV5')
 
         }
     else if(f === 'Canais Telecine'){
@@ -409,9 +440,19 @@ export default function Player(props) {
             setCam10('HBO 2')
             setCam11('HBO POP')
 
-
         }
 
+
+        else if(f === 'Star'){
+            setCam1('Star+ 1')
+            setCam2('Star+ 2')
+            setCam3('Star+ 3')
+            setCam4('Star+ 4')
+            setCam5('Star Life')
+            setCam6('Star Channel')
+            setCam7('Disney Channel')   
+            setCam8('Warner Channel')
+        }
 
 
      
@@ -421,6 +462,7 @@ export default function Player(props) {
         <div className="containerPlayer1">
             <Header />
         <div className="containerPlayer">
+            <h4>Quando clicar em uns dos botões abaixos, você será redirecionado para uma página de propaganda. Após isso, retorne imediatamente ao nosso site</h4>
             <iframe  title="UniqueTitle" name="Player"   id="meuIframe" src={iframeSrc} frameborder="0" height="550" scrolling="no" width="80%" allow="encrypted-media" allowFullScreen />              
             <div class="container text-center" id="con">
 

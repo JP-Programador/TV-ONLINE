@@ -34,6 +34,9 @@ export default function Home() {
         else if (botao === 'Canais Prime') {
             nome = 'Canais Prime'
         }
+        else if (botao === 'Star') {
+            nome = 'Star'
+        }
         else{
             nome = 'não encontrado'
         }
@@ -53,6 +56,10 @@ export default function Home() {
             <div class="container1">
             
             <div class="row" id="ro1">
+            <div class="col" onClick={() => abrir('Star')}>
+                    <div className="col-img" id="cal1" value="bbb"><img src="./images/vix.webp"width={"250"} alt="" /></div>
+                    <div className="col-name"  > Disney e Star+</div>
+                </div>
                 <div class="col" onClick={() => abrir('Canais Prime')}>
                     <div className="col-img" id="cal1" value="bbb"><img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg"width={"250"} alt="" /></div>
                     <div className="col-name"  >Canais Prime Video</div>
