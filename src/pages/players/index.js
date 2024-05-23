@@ -188,18 +188,51 @@ export default function Player(props) {
         if(d === 'Canais Prime') {
             
             if(botao === 'CAM1') {    
-            meuIframe.src = "https://sinalpublico.com/player3/ch.php?canal=telecineaction";
+            meuIframe.src = "https://reidoscanais.app/embed/?id=primevideo";
             
-        }
+            }
             else if (botao === 'CAM2') {
-                meuIframe.src = "https://playertv.net/e/?v=primeAlt";
+                meuIframe.src = "https://reidoscanais.app/embed/?id=primevideo2";
             }
             else if (botao === 'CAM3') {
-                meuIframe.src = "https://playertv.net/e/?v=primeAlt2";
+                meuIframe.src = "https://reidoscanais.app/embed/?id=primevideo3";
             }
             else if (botao === 'CAM4') {
-                meuIframe.src = "https://playertv.net/e/?v=primeAlt3";
+                meuIframe.src = "https://reidoscanais.app/embed/?id=primevideo4";
             }
+            
+            else if (botao === 'CAM5') {
+                meuIframe.src = "https://reidoscanais.app/embed/?id=primevideo5";
+            }
+            
+        
+            else if (botao === 'CAM6') {
+                meuIframe.src = "https://reidoscanais.app/embed/?id=primevideo6";
+            }
+            
+            
+            else if (botao === 'CAM7') {
+                meuIframe.src = "https://reidoscanais.app/embed/?id=primevideo7";
+            }
+            
+            
+            else if (botao === 'CAM8') {
+                meuIframe.src = "https://reidoscanais.app/embed/?id=primevideo8";
+            }
+
+            else if (botao === 'CAM9') {
+                meuIframe.src = "https://embedflix.online/tv/prime-tv";
+            }
+            else if (botao === 'CAM10') {
+                meuIframe.src = "https://embedflix.online/tv/prime-tv-2";
+            }
+            
+            else if (botao === 'CAM11') {
+                meuIframe.src = "https://embedflix.online/tv/prime-tv-3";
+            }
+            
+            
+            
             
         }
         else if(d === "Canais Globo") {
@@ -239,6 +272,32 @@ export default function Player(props) {
                 }
                 else if (botao === 'CAM4') {
                     meuIframe.src = "https://embedflix.online/tv/prfc-3-hd";
+                }
+                else if (botao === 'CAM5') {
+                    meuIframe.src = "https://embedflix.online/tv/prfc-4-hd";
+                }
+                else if (botao === 'CAM6') {
+                    meuIframe.src = "https://embedflix.online/tv/prfc-5-hd";
+                }
+                else if (botao === 'CAM7') {
+                    meuIframe.src = "https://embedflix.online/tv/prfc-6-hd";
+                }
+                else if (botao === 'CAM8') {
+                    meuIframe.src = "https://embedflix.online/tv/prfc-7-hd";
+                }
+                else if (botao === 'CAM9') {
+                    meuIframe.src = "https://embedflix.online/tv/prfc-8-hd";
+                }
+
+
+                else if (botao === 'CAM2') {
+                    meuIframe.src = "https://reidoscanais.app/embed/?id=premiereclubesalternativo";
+                }
+                else if (botao === 'CAM3') {
+                    meuIframe.src = "https://reidoscanais.app/embed/?id=premiere2alternativo";
+                }
+                else if (botao === 'CAM4') {
+                    meuIframe.src = "https://reidoscanais.app/embed/?id=premiere3alternativo";
                 }
                 else if (botao === 'CAM5') {
                     meuIframe.src = "https://embedflix.online/tv/prfc-4-hd";
@@ -394,6 +453,15 @@ export default function Player(props) {
             setCam2('Prime Video 2')
             setCam3('Prime Video 3')
             setCam4('Prime Video 4')
+            setCam5('Prime Video 5')
+            setCam6('Prime Video 6')
+            setCam7('Prime Video 7')
+            setCam8('Prime Video 8')
+            setCam9('Prime Video (ALT)')
+            setCam10('Prime Video 2 (ALT)')
+            setCam11('Prime Video 3 (ALT)')
+
+
     
        }
        else if(f === 'Canais Globo'){
