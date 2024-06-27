@@ -28,6 +28,15 @@ export default function Home() {
         }else if (botao === 'Telecine') {
             nome = 'Canais Telecine'
         }
+        else if (botao === 'HBO') {
+            nome = 'Canais HBO MAX'
+        }
+        else if (botao === 'Canais Prime') {
+            nome = 'Canais Prime'
+        }
+        else if (botao === 'Star') {
+            nome = 'Star'
+        }
         else{
             nome = 'não encontrado'
         }
@@ -40,16 +49,20 @@ export default function Home() {
         <div classname="containerHome">
             <Header />
             <div className="sal">
-            <h1>ATUALIZAÇÃO 1.1 !</h1> 
-            <span>Olá é um prazer tê-lo conosco, primeiramente queria agradecer por está utilizando nosso sistema e fazer parte dessa comunidade, que está apenas começando. <br></br> Gostaríamos de avisar que nosso sistema, é um sistema beta, então quer dizer que teremos bugs, conteúdos limitados e algumas páginas e players sem acesso, mas fique tranquilo, estamos trabalhando duro, para que possamos ser uns dos melhores sites de TV Online. Muito obrigado pela sua compreensão e bom divertimento. </span>
+            <h1>ATUALIZAÇÃO 1.2 !</h1> 
+            <span>Olá é um prazer tê-lo conosco, primeiramente queria agradecer por está utilizando nosso sistema e fazer parte dessa comunidade, que está apenas começando. <br></br> Gostaríamos de avisar-los que nosso sistema está desenvolvimento contemplado poucos canais, além disso estamos sofrendo problemas com servidores, tendo alguns canais inoperante, mas estamos trabalhando para mudar esse cenário. Muito obrigado pela sua compreensão e bom divertimento. </span>
 
             </div>
             <div class="container1">
             
             <div class="row" id="ro1">
-                <div class="col" onClick={() => abrir('bbb')}>
-                    <div className="col-img" id="cal1" value="bbb"><img src="./images/bbb-logo-big-brother-brasil-logo.webp"width={"250"} alt="" /></div>
-                    <div className="col-name"  >Canais BBB</div>
+            <div class="col" onClick={() => abrir('Star')}>
+                    <div className="col-img" id="cal1" value="bbb"><img src="./images/vix.webp"width={"250"} alt="" /></div>
+                    <div className="col-name"  > Disney e Star+</div>
+                </div>
+                <div class="col" onClick={() => abrir('Canais Prime')}>
+                    <div className="col-img" id="cal1" value="bbb"><img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg"width={"250"} alt="" /></div>
+                    <div className="col-name"  >Canais Prime Video</div>
                 </div>
                 <div class="col"  onClick={() => abrir('globo')}>
                     <div className="col-img" id="cal" value={"Globo"}><img src="./images/Logotipo_da_TV_Globo.png.webp"width={"150"} alt="" /></div>
@@ -71,6 +84,10 @@ export default function Home() {
                  <div class="col"  onClick={() => abrir('Telecine')}>
                     <div className="col-img" ><img src="./images/Telecine-Play_Vagas.png"width={"200"} alt="" /></div>
                     <div className="col-name">Canais Telecine</div>               
+                 </div>
+                 <div class="col"  onClick={() => abrir('HBO')}>
+                    <div className="col-img" ><img src="https://upload.wikimedia.org/wikipedia/commons/4/44/HBO_Max_2024.svg" width={"200"} alt="" /></div>
+                    <div className="col-name">Canais HBO MAX</div>               
                  </div>
             </div>
             </div>
