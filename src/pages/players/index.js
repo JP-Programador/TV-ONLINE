@@ -5,7 +5,9 @@ import Header from "../../components/header";
 import Footer from "../../components/footer";
 
 export default function Player(props) {
-    const iframeSrc = "https://www.veed.io/embed/35c4d6a5-dd9f-4a10-8d5d-b866ca23bff2"
+
+
+    const iframeSrc = "https://reidoscanais.org/embed/?id=telecinecult";
 
     const {canal} = useParams();
     const [cam1, setCam1] = useState('')
@@ -188,132 +190,132 @@ export default function Player(props) {
         if(d === 'Canais BBB24') {
             
             if(botao === 'CAM1') {    
-            meuIframe.src = "https://reidoscanais.com/embed/?id=bbb";
+            meuIframe.src = "https://reidoscanais.org/embed/?id=bbb";
             
         }
             else if (botao === 'CAM2') {
-                meuIframe.src = "https://reidoscanais.com/embed/?id=bbb2";
+                meuIframe.src = "https://reidoscanais.org/embed/?id=bbb2";
             }
             else if (botao === 'CAM3') {
-                meuIframe.src = "https://reidoscanais.com/embed/?id=bbb8";
+                meuIframe.src = "https://reidoscanais.org/embed/?id=bbb8";
             }
             else if (botao === 'CAM4') {
-                meuIframe.src = "https://reidoscanais.com/embed/?id=bbb5";
+                meuIframe.src = "https://reidoscanais.org/embed/?id=bbb5";
             }
             else if (botao === 'CAM5') {
-                meuIframe.src = "https://reidoscanais.com/embed/?id=bbb4";
+                meuIframe.src = "https://reidoscanais.org/embed/?id=bbb4";
             }
             else if (botao === 'CAM6') {
-                meuIframe.src = "https://reidoscanais.com/embed/?id=bbb6";
+                meuIframe.src = "https://reidoscanais.org/embed/?id=bbb6";
             }
             else if (botao === 'CAM7') {
-                meuIframe.src = "https://reidoscanais.com/embed/?id=bbb7";
+                meuIframe.src = "https://reidoscanais.org/embed/?id=bbb7";
             }
             else if (botao === 'CAM8') {
-                meuIframe.src = "https://reidoscanais.com/embed/?id=bbb9";
+                meuIframe.src = "https://reidoscanais.org/embed/?id=bbb9";
             }
             else if (botao === 'CAM9') {
-                meuIframe.src = "https://reidoscanais.com/embed/?id=bbb10";
+                meuIframe.src = "https://reidoscanais.org/embed/?id=bbb10";
             }
             else if (botao === 'CAM10') {
-                meuIframe.src = "https://reidoscanais.com/embed/?id=bbb11";
+                meuIframe.src = "https://reidoscanais.org/embed/?id=bbb11";
             }
             else if (botao === 'CAM11') {
-                meuIframe.src = "https://reidoscanais.com/embed/?id=bbbmosaico";
+                meuIframe.src = "https://reidoscanais.org/embed/?id=bbbmosaico";
             }
             
 
         }
         else if(d === "Canais Globo") {
             if(botao === 'CAM1') {    
-                meuIframe.src = "https://reidoscanais.com/embed/?id=globosp-globosaopaulo";
+                meuIframe.src = "https://reidoscanais.org/embed/?id=globosp-globosaopaulo";
                 }
                 else if (botao === 'CAM2') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=globorj-globorio";
+                    meuIframe.src = "https://reidoscanais.org/embed/?id=globorj-globorio";
                 }
                 else if (botao === 'CAM3') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=globomg-globominas";
+                    meuIframe.src = "https://reidoscanais.org/embed/?id=globomg-globominas";
                 }
                 else if (botao === 'CAM4') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=globoba-tvbahia";
+                    meuIframe.src = "https://reidoscanais.org/embed/?id=globoba-tvbahia";
                 }
                 else if (botao === 'CAM5') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=globodf-globobrasilia";
+                    meuIframe.src = "https://reidoscanais.org/embed/?id=globodf-globobrasilia";
                 }
         }
         else if(d === "Canais Premiere") {
             if(botao === 'CAM1') {    
-                meuIframe.src = "https://reidoscanais.com/embed/?id=premiereclubes";
+                meuIframe.src = "https://reidoscanais.org/embed/?id=premiereclubes";
                 }
                 else if (botao === 'CAM2') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=premiere2";
+                    meuIframe.src = "https://reidoscanais.org/embed/?id=premiere2";
                 }
                 else if (botao === 'CAM3') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=premiere3";
+                    meuIframe.src = "https://reidoscanais.org/embed/?id=premiere3";
                 }
                 else if (botao === 'CAM4') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=premiere4";
+                    meuIframe.src = "https://reidoscanais.org/embed/?id=premiere4";
                 }
                 else if (botao === 'CAM5') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=premiere5";
+                    meuIframe.src = "https://reidoscanais.org/embed/?id=premiere5";
                 }
                 else if (botao === 'CAM6') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=premiere6";
+                    meuIframe.src = "https://reidoscanais.org/embed/?id=premiere6";
                 }
                 else if (botao === 'CAM7') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=premiere7";
+                    meuIframe.src = "https://reidoscanais.org/embed/?id=premiere7";
                 }
                 else if (botao === 'CAM8') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=premiere8";
+                    meuIframe.src = "https://reidoscanais.org/embed/?id=premiere8";
                 }
         }
         else if(d === "Canais ESPN") {
             if(botao === 'CAM1') {    
-                meuIframe.src = "https://reidoscanais.com/embed/?id=espn";
+                meuIframe.src = "https://reidoscanais.org/embed/?id=espn";
                 }
                 else if (botao === 'CAM2') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=espn2";
+                    meuIframe.src = "https://reidoscanais.org/embed/?id=espn2";
                 }
                 else if (botao === 'CAM3') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=espn3";
+                    meuIframe.src = "https://reidoscanais.org/embed/?id=espn3";
                 }
                 else if (botao === 'CAM4') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=espn4";
+                    meuIframe.src = "https://reidoscanais.org/embed/?id=espn4";
                 }
                 else if (botao === 'CAM5') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=espnextra";
+                    meuIframe.src = "https://reidoscanais.org/embed/?id=espnextra";
                 }
         }
         else if(d === "Canais Sport TV") {
             if(botao === 'CAM1') {    
-                meuIframe.src = "https://reidoscanais.com/embed/?id=sportv";
+                meuIframe.src = "https://reidoscanais.org/embed/?id=sportv";
                 }
                 else if (botao === 'CAM2') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=sportv2";
+                    meuIframe.src = "https://reidoscanais.org/embed/?id=sportv2";
                 }
                 else if (botao === 'CAM3') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=sportv3";
+                    meuIframe.src = "https://reidoscanais.org/embed/?id=sportv3";
                 }
         }
         
         else if(d === "Canais Telecine") {
             if(botao === 'CAM1') {    
-                meuIframe.src = "https://reidoscanais.com/embed/?id=telecinepremium";
+                meuIframe.src = "https://reidoscanais.org/embed/?id=telecinepremium";
                 }
                 else if (botao === 'CAM2') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=telecinepipoca";
+                    meuIframe.src = "https://reidoscanais.org/embed/?id=telecinepipoca";
                 }
                 else if (botao === 'CAM3') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=telecineaction";
+                    meuIframe.src = "https://reidoscanais.org/embed/?id=telecineaction";
                 }
                 else if (botao === 'CAM4') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=telecinetouch";
+                    meuIframe.src = "https://reidoscanais.org/embed/?id=telecinetouch";
                 }
                 else if (botao === 'CAM5') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=telecinefun";
+                    meuIframe.src = "https://reidoscanais.org/embed/?id=telecinefun";
                 }
                 else if (botao === 'CAM6') {
-                    meuIframe.src = "https://reidoscanais.com/embed/?id=telecinecult";
+                    meuIframe.src = "https://reidoscanais.org/embed/?id=telecinecult";
                 }
         }
         console.log(d)
@@ -385,7 +387,7 @@ export default function Player(props) {
         <div className="containerPlayer1">
             <Header />
         <div className="containerPlayer">
-            <iframe  title="UniqueTitle" name="Player"   id="meuIframe" src={iframeSrc} frameborder="0" height="550" scrolling="no" width="80%" allow="encrypted-media" allowFullScreen />              
+            <iframe  title="UniqueTitle" name="Player"   id="meuIframe" src={iframeSrc} allow="encrypted-media"  allowfullscreen scrolling="no"   width="100%"  height="400" />              
             <div class="container text-center" id="con">
 
                 <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
